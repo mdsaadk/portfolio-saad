@@ -65,6 +65,7 @@ html {
   {
     color: var(--primary-1-color);
     font-size: 2.5rem;
+    font-weight: 600
 
   }
   nav a {
@@ -120,18 +121,17 @@ html {
        box-shadow: 1rem 0.5rem 1.2rem #201e1e4d; 
       background-color: #d9d9d9;
   }
-  
   .bio-title {
     text-align: left;
-    margin-bottom:-2.2rem ;
+    margin-bottom:0.8rem ;
   }
   
-  .bio-text {
+   /* .bio-text {
     padding: 2rem 0rem 1rem .1rem; 
-    font-size: 2rem;
-    color: #9F392B;
+    font-size: 1.5rem;
+    color: #4d4272;
   }
-  
+    */
   .bio .btn-1 {
     margin-top: 10rem; 
     position:relative; 
@@ -155,7 +155,7 @@ html {
     transition: 0.3s;
   }
   .bio .btn-1:hover {
-    background: #a28089;
+    background: #000000;
   }
   .bio .btn-1:hover i {
     transform: translateX(5px);
@@ -193,10 +193,10 @@ html {
 .social-icons a:focus,
 .social-icons a:hover {
   color: #fff;
-  background-color: #0685da;
+  background-color: #4d4272;
 }
 .social-icons a.linkedin:hover {
-  background-color: #007bb6;
+  background-color: #4d4272;
 }
 
 .social-icons a.github:hover {
@@ -213,14 +213,14 @@ html {
 
   .heading {
     font-size: 3.5rem;
-    color: #202020;
+    color: #000000;
     font-weight: 800;
     text-align: center;
     padding-bottom: 1.5rem;
     padding-top: 7rem;
   }
   .heading span {
-    color: #a28089;
+    color: #fcfcfc;
   }
   .about .row {
     display: flex;
@@ -256,54 +256,55 @@ html {
     line-height: 2.1rem;
   }
   .about .row .content h3 {
-    color: #eee3f3;
-    font-size: 2.9rem;
+    color: #000000;
+    font-size: 2.5rem;
   }
   .about .row .content .tag {
-    font-size: 2rem;
-    color: #E9E448CC;
+    font-size: 1.5rem;
+    color: #fcfcfc;
     font-weight: 500;
     margin-top: 1rem;
   }
   .about .row .content p {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-top: 1.5rem;
-    font-family: "Nunito";
-    font-weight: 700;
+    /* font-family: "Nunito"; */
+    font-weight: 500;
     text-transform: none;
-    color:#9CD1D1;
+    color:#fcfcfc;
   }
   .about .row .content .box-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
-    font-family: "Nunito";
-    font-weight: 600;
+    /* font-family: "Nunito"; */
+    font-weight: 500;
   }
   .about .row .content .box-container .box p {
     text-transform: none;
   }
   .about .row .content .box-container .box p span {
-    color: #eee3f3;
+    color: #000000;
   }
   .resumebtn {
     margin-top: 6rem;
   }
   .resumebtn .btn {
     padding: 1.7rem 3rem;
-    border-radius: 0.5em;
+    border-radius: 4rem;
     transition: 0.3s;
     color: #fff;
     background: #2506ad;
-    box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
-    font-family: "Nunito", sans-serif;
+    box-shadow: 0 5px 10px #00000099;
+    /* box-shadow: 0px 5px 10px rgb(112 117 153 / 60%);     */
+    /* font-family: "Nunito", sans-serif; */
 
     overflow: hidden;
     transition: 0.3s;
   }
   .resumebtn .btn span {
-    font-weight: 600;
-    font-size: 1.8rem;
+    font-weight: 500;
+    font-size: 1.5rem;
     letter-spacing: 0.1rem;
   }
   .resumebtn .btn i {
@@ -312,7 +313,7 @@ html {
     transition: 0.3s;
   }
   .resumebtn .btn:hover {
-    background: #a28089;
+    background: #202020;
     transform: scale(1.03);
     box-shadow: 0rem .3rem 1rem var(--secondary-shadow);
   }
@@ -335,10 +336,10 @@ html {
     padding: 6rem;
     font-size: 3rem;
   }
-  .skill-header span {
+  /* .skill-header span {
     color: #a28089;
-  }
-  .skill-wrapper img
+  }*/
+  .skill-wrapper img */
   {
     padding: 2.25rem;
     overflow: hidden;
@@ -351,7 +352,7 @@ html {
   }
   .icon
   {
-    width: 18.875rem;
+    width: 17.875rem;
     height: 19.25rem;
   }
   .icon-card
@@ -359,7 +360,7 @@ html {
     background-color: #ffffff;
     border-radius: 1rem;
     box-shadow: 1rem 0.5rem 1.2rem #201e1e4d;
-    padding: 2rem;
+    padding: .5rem;
     margin: 2rem;
   }
   /*==============skills-section-end============*/
@@ -368,10 +369,14 @@ html {
     background: #e0f3ff;
     min-height: 44vh;
   }
+  .education .heading{
+    color: var(--primary-1-color);
+    font-size: 3rem;
+  }
   .education .qoute {
     font-size: 1.5rem;
     text-align: center;
-    font-family: "Nunito", sans-serif;
+    /* font-family: "Nunito", sans-serif; */
     font-weight: 600;
     margin-top: 0.5rem;
     margin-bottom: 2rem;
@@ -423,7 +428,7 @@ html {
     flex: 1 1 70rem;
   }
   .education .box-container .box .content h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #012970;
     padding: 0.5rem 0;
     font-weight: 600;
@@ -437,11 +442,11 @@ html {
   }
   .education h4 {
     font-size: 2rem;
-    color: rgb(34, 109, 0);
+    color: #226d00;
     text-align: left;
     margin: 1rem;
-    font-family: "Nunito", sans-serif;
-    font-weight: 700;
+    /* font-family: "Nunito", sans-serif; */
+    font-weight: 450;
   }
   /*==============education-section-end============*/
   /*==============contact-section-start============*/
@@ -470,7 +475,7 @@ html {
    .contact-form-container label 
   {
     line-height: 2.7rem;
-    color: var(--primary-color);
+    color: var(--primary-color-1);
     font-size: 2rem;
   }
   
@@ -501,8 +506,10 @@ html {
     width: 100%;
     padding: 8px;
     margin:10px 0 10px ;
-    background-color: #4d4272;
+    /* background-color: #4d4272; */
     color: #fff;
+    background: #2506ad;
+    box-shadow: 1px 4px 16px rgba(48, 68, 247, 0.6);
     border: none;
     border-radius: 18px;
     font-size: 1.5rem;
@@ -513,7 +520,7 @@ html {
   }
   .submit-btn:hover
   {
-    background-color: var(--primary-color);
+    background-color: #000000;
     border: 2px solid var(--primary-1-color);
     cursor: pointer;
 
@@ -548,7 +555,6 @@ html {
     bottom: 10%;
 
    }
-
   /*==============Up-arrow-end============*/
 /* ========footer section starts ===========*/
 .footer {
@@ -567,19 +573,19 @@ html {
 }
 .footer .box-container .box h3 {
   font-size: 2rem;
-  color: #fff;
+  color: #fcfcfc;
   padding-bottom: 1rem;
   font-weight: normal;
 }
 .footer .box-container .box p {
   font-size: 1.5rem;
-  color: #ccc;
+  color: #fcfcfc;
   padding: 0.7rem 0;
   text-transform: none;
 }
 .footer .box-container .box p i {
   padding-right: 1rem;
-  color: #ffae00;
+  color: #000000;
 }
 .footer .box-container .box a {
   font-size: 1.5rem;
@@ -588,7 +594,7 @@ html {
   display: block;
 }
 .footer .box-container .box a:hover {
-  color: #ffae00;
+  color: var(--primary-1-color);
 }
 .footer .box-container .box .share {
   display: flex;
@@ -612,7 +618,7 @@ html {
   background: transparent;
   transform: scale(0.98);
   border: 0.1rem solid rgb(180, 178, 178);
-  color: #ffae00;
+  color:var(--primary-color);
 }
 
 /* ======footer-section-end========== */
